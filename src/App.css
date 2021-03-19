@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: linear-gradient(90deg,rgb(134, 241, 122),rgb(161, 236, 194),rgb(86, 177, 78));
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  color: rgb(107, 16, 34);
+  font-size: 40px;
+  margin-top: 10px;
+  }
+h3{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+
+  }
+ 
