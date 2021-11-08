@@ -6,22 +6,22 @@ mapboxgl.accessToken='pk.eyJ1Ijoiam9zZXBhbnNhYmF0ZSIsImEiOiJja21kejl5bHUxdzhoMnB
 
 const data = [
     {
-        "location": "Manhattan Ave & Norman Ave at NE corner",
-        "city": "Brooklyn",
-        "state": "New York",
-        "coordinates": [-73.9516,40.7255]
+        "location": "Plaça Cívica, Universitat Autònoma de Barcelona",
+        "city": "Cerdanyola del Vallès",
+        "state": "Catalunya",
+        "coordinates": [2.103756, 41.502007]
     },
     {
-        "location": "6th Ave & 42nd St at NW corner",
-        "city": "Manhattan",
-        "state": "New York",
-        "coordinates": [-73.9839,40.7553]
+        "location": "Portal del Bové",
+        "city": "Montblanc",
+        "state": "Catalunya",
+        "coordinates": [ 1.16384, 41.377049]
     },
     {
-        "location": "Manhattan Ave & Norman Ave at NE corner",
-        "city": "Manhattam",
-        "state": "New York",
-        "coordinates": [-73.98827,40.7182]
+        "location": "Parc Güell",
+        "city": "Barcelona",
+        "state": "Catalunya",
+        "coordinates": [ 2.153492,41.41432]
     }
 ]
 
@@ -29,9 +29,9 @@ class Mapp extends Component{
     constructor(props){
         super(props);
         this.state = {
-            lng: -74,
-            lat: 40.74128,
-            zoom: 12
+            lng: 1.9,
+            lat: 41.5,
+            zoom: 8
         }
     }
     componentDidMount() {
